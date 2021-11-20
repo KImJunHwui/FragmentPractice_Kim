@@ -15,10 +15,16 @@
         android:textSize="20sp"/>
 
     <Button
-        android:id="@+id/changeTextBtn"
+    android:id="@+id/changeTextBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="위 문구 변경"/>
+
+    <Button
+        android:id="@+id/toastBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="위 문구 변경"/>
+        android:text="토스트 버튼"/>
 
 
 
